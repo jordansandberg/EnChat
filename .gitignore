@@ -1,0 +1,9 @@
+*
+# rootfiles
+!.gitignore
+!Dockerfile
+
+# diagrams
+!/diagrams
+!/diagrams/database
+!/diagrams/database/*.png
