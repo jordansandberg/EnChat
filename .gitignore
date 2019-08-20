@@ -7,3 +7,8 @@
 !/diagrams
 !/diagrams/database
 !/diagrams/database/*.png
+
+# database
+!/database
+!/database/schemas
+!/database/schemas/*.sql
