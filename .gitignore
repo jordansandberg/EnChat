@@ -10,5 +10,4 @@
 
 # database
 !/database
-!/database/schemas
-!/database/schemas/*.sql
+!/database/*.sql
