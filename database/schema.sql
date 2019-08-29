@@ -3,7 +3,7 @@ drop table if exists chat_room cascade;
 create table chat_room(
     chat_room_id serial primary key,
     pword varchar(32) not null,
-    chat_room_name varchar(32) not null
+    chat_room_name varchar(32) not null unique
 );
 
 drop table if exists users cascade;
@@ -11,7 +11,7 @@ drop table if exists users cascade;
 create table users(
     usr_id serial primary key,
     pword varchar(32) not null, 
-    usr_name varchar(32) not null
+    usr_name varchar(32) not null unique
 );
 
 drop table if exists whitelist cascade;
