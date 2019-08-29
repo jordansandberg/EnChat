@@ -26,3 +26,10 @@ where chat_room_name = 'brad and jordans chat room';
 insert into is_on
 values (1,1);
 
+-- insert duplicates
+
+insert into users
+values (default, '223', brad);
+
+insert into chat_room
+values (default, 'chat1', 'brad and jordans chat room');
